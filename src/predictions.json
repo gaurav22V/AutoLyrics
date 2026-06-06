@@ -1,0 +1,206 @@
+{
+    "baseline": [
+        {
+            "reference": "there is a calm surrender to the rush of the day when the heat of the rolling world can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you and can you feel the love tonight it is where we are its enough for this wideeyed wanderer that we got this far and can you feel the love tonight how its laid to rest its enough to make kings and vagabonds believe the very best",
+            "prediction": " There is a calm surrender to the rush of the day. When the heat of the rolling world can be turned away, an enchanted moment, and it sees me through, it's enough for this restless warrior just to be with you. And can you feel the love tonight? It is where we are. It's enough for this wide-eyed wanderer that we got this far. And can you feel the love tonight? How it's laid to rest? It's enough to make kings and vagabonds believe the very best.",
+            "latency_seconds": 59.6016960144043
+        },
+        {
+            "reference": "theres a calm surrender to the rush of day when the heat of the rolling wall can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you",
+            "prediction": " There's a calm surrender to the rush of day When the heat of the rolling wall can be turned away An enchanted moment and it sees me through It's enough for this restless warrior just to be with you",
+            "latency_seconds": 2.3903255462646484
+        },
+        {
+            "reference": "im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone ive tried and i dont know why slow it down make it stop or else my heart is going to pop because its too much yeah its a lot to be something im not im a fool out of love because i just cant get enough im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone",
+            "prediction": " I'm just a little bit caught in the middle. Life is a maze and love is a riddle. I don't know where to go. Can't do it alone. I've tried and I don't know why. Slow it down. Make it stop or else my heart is going to pop. Because it's too much. Yeah, it's a lot to be something I'm not. I'm a fool out of love because I just can't get enough. I'm just a little bit caught in the middle. Life is a maze and love is a riddle. I don't know where to go. Can't do it alone.",
+            "latency_seconds": 5.9426164627075195
+        },
+        {
+            "reference": "saya suka hidup setiap hari tetapi kadangkadang saya rasa begitu saya harap untuk mencari sebuah kecil minuman dan saya hanya ingin tahu siapa boleh menyelamatkan kecilkecil yang kecil dan apa kita perlu menjadi di mana rumah di jalan yang berat saya mencari mata lagi di dalam kejadian saya saya tidak begitu jauh dari rumah apa yang saya dan dunia begitu jauh dari rumah",
+            "prediction": " Saya suka hidup setiap hari, tetapi kadang-kadang saya rasa begitu Saya harap untuk mencari sebuah kecil minuman dan saya hanya ingin tahu Siapa boleh menyelamatkan kecil-kecil yang kecil dan apa kita perlu menjadi? Di mana rumah di jalan yang berat, saya mencari mata lagi Di dalam kejadian saya, saya tidak begitu jauh dari rumah Apa yang saya dan dunia begitu jauh dari rumah?",
+            "latency_seconds": 4.923187732696533
+        },
+        {
+            "reference": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark thanks you for your tiny spark he could not see you",
+            "prediction": " Twinkle, twinkle, little star, how I wonder what you are. Up above the world so high, like a diamond in the sky. Twinkle, twinkle, little star, how I wonder what you are. When the blazing sun is gone, when he nothing shines upon, then you show your little light. Twinkle, twinkle, all the night. Twinkle, twinkle, little star, how I wonder what you are. Then the traveler in the dark thanks you for your tiny spark. He could not see you,",
+            "latency_seconds": 5.564777851104736
+        },
+        {
+            "reference": "its late in the evening shes wondering what clothes to wear she puts on her makeup and brushes her long blonde hair and then she asks me do i look alright and i say yes you look wonderful tonight we go to a party and everyone turns to see this beautiful lady thats walking around with me and then she asks me do you feel alright and i say yes i feel wonderful tonight i feel wonderful because i see the love light in your eyes",
+            "prediction": " It's late in the evening, she's wondering what clothes to wear. She puts on her makeup and brushes her long blonde hair. And then she asks me, do I look alright? And I say yes, you look wonderful tonight. We go to a party and everyone turns to see this beautiful lady that's walking around with me. And then she asks me, do you feel alright? And I say yes, I feel wonderful tonight. I feel wonderful because I see the love light in your eyes.",
+            "latency_seconds": 4.592513561248779
+        },
+        {
+            "reference": "dushing through the snow in a one horse open sleigh or the fuse would go laughing all the way bells on pop tails ring making spirits bright would have fun it is to laugh and sing a sleighing song tonight oh jingle bells jingle bells jingle all the way oh would have fun it is to ride in a one horse open sleigh hey jingle bells jingle bells jingle all the way oh would have fun it is to ride in a one horse open sleigh",
+            "prediction": " Dushing through the snow in a one horse open sleigh Or the fuse would go laughing all the way Bells on pop tails ring making spirits bright Would have fun it is to laugh and sing a sleighing song tonight Oh jingle bells jingle bells jingle all the way Oh would have fun it is to ride in a one horse open sleigh Hey jingle bells jingle bells jingle all the way Oh would have fun it is to ride in a one horse open sleigh",
+            "latency_seconds": 4.076432228088379
+        },
+        {
+            "reference": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abcs skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky now that spring is in the air pretty girls are everywhere think of me and ill be there we had joy we had fun we had seasons",
+            "prediction": " Goodbye to you, my trusted friend. We've known each other since we were nine or ten. Together we've climbed hills and trees, learned of love and ABCs, skinned our hearts and skinned our knees. Goodbye, my friend, it's hard to die when all the birds are singing in the sky. Now that spring is in the air, pretty girls are everywhere. Think of me and I'll be there. We had joy, we had fun, we had seasons,",
+            "latency_seconds": 4.494240760803223
+        },
+        {
+            "reference": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast im driving too far id like to change my point of view i feel so lonely im waiting for you but nothing ever happens and i wonder i wonder how i wonder why yesterday",
+            "prediction": " I'm sitting here in the boring room. It's just another rainy Sunday afternoon. I'm wasting my time. I got nothing to do. I'm hanging around. I'm waiting for you. But nothing ever happens. And I wonder I'm driving around in my car. I'm driving too fast. I'm driving too far. I'd like to change my point of view. I feel so lonely. I'm waiting for you. But nothing ever happens. And I wonder I wonder how I wonder why yesterday.",
+            "latency_seconds": 4.373914957046509
+        },
+        {
+            "reference": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abc skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky",
+            "prediction": " Goodbye to you, my trusted friend. We've known each other since we were nine or ten. Together we've climbed hills and trees. Learned of love and ABC. Skinned our hearts and skinned our knees. Goodbye, my friend. It's hard to die. When all the birds are singing in the sky.",
+            "latency_seconds": 2.81479549407959
+        },
+        {
+            "reference": "love in your eyes sitting silent by my side going on holding hands walking through the nights hold me up hold me tight lift me up to touch the sky teaching me to love with heart helping me open my mind i can fly im proud that i can fly to give the best of mine till the end of time believe me i can fly im proud that i can fly to give the best of mine the heavenly light",
+            "prediction": " Love in your eyes, sitting silent by my side. Going on, holding hands, walking through the nights. Hold me up, hold me tight. Lift me up to touch the sky. Teaching me to love with heart, helping me open my mind. I can fly, I'm proud that I can fly, to give the best of mine till the end of time. Believe me I can fly, I'm proud that I can fly. To give the best of mine, the heavenly light.",
+            "latency_seconds": 5.0802106857299805
+        },
+        {
+            "reference": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark",
+            "prediction": " Twinkle, twinkle, little star, how I wonder what you are, Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, how I wonder what you are, When the blazing sun is gone, When he nothing shines upon, Then you show your little light, Twinkle, twinkle, all the night. Twinkle, twinkle, little star, how I wonder what you are, Then the traveler in the dark.",
+            "latency_seconds": 4.670018672943115
+        },
+        {
+            "reference": "silent night holy night all is calm all is bright round yon virgin mother and child holy infant so tender and mild sleep in heavenly peace sleep in heavenly peace silent night holy night shepherds quake at the sight glory stream from heaven afar heavenly hosts sing hallelujah christ the savior is born christ the savior is born",
+            "prediction": " Silent night, holy night, all is calm, all is bright. Round yon virgin, mother and child, holy infant, so tender and mild. Sleep in heavenly peace. Sleep in heavenly peace. Silent night, holy night, shepherd's quake at the sight. Glory stream from heaven afar. Heavenly hosts sing hallelujah. Christ the Savior is born. Christ the Savior is born.",
+            "latency_seconds": 3.9243392944335938
+        },
+        {
+            "reference": "moon river wider than a mile im crossing you in style someday you dream maker you heartbreaker wherever youre going im going your way two drifters off to see the world theres such a lot of world to see were after the same rainbows and waiting around the bend my huckleberry friend moon river and me moon river wider than a mile",
+            "prediction": " Moon River, wider than a mile, I'm crossing you in style someday. You dream maker, you heartbreaker, wherever you're going, I'm going your way. Two drifters, off to see the world. There's such a lot of world to see. We're after the same rainbows and waiting around the bend. My Huckleberry friend, Moon River and me. Moon River, wider than a mile,",
+            "latency_seconds": 4.246133089065552
+        },
+        {
+            "reference": "moon river wider than a mile im crossing you in style someday you dream maker you hot breaker wherever you are",
+            "prediction": " Moon River, wider than a mile, I'm crossing you in style someday. You dream maker, you hot breaker wherever you are.",
+            "latency_seconds": 1.6251845359802246
+        },
+        {
+            "reference": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast im driving too far id like to change my point of view",
+            "prediction": " I'm sitting here in the boring room It's just another rainy Sunday afternoon I'm wasting my time I got nothing to do I'm hanging around I'm waiting for you But nothing ever happens And I wonder I'm driving around in my car I'm driving too fast I'm driving too far I'd like to change my point of view",
+            "latency_seconds": 2.902845621109009
+        },
+        {
+            "reference": "a little vice a little vice every morning you greet me small and white clean and bright you look happy to me",
+            "prediction": " A little vice, A little vice, Every morning you greet me, Small and white, clean and bright, You look happy to me,",
+            "latency_seconds": 1.4288890361785889
+        },
+        {
+            "reference": "i hear your voice on the line but it doesnt stop the pain",
+            "prediction": " I hear your voice on the line, but it doesn't stop the pain.",
+            "latency_seconds": 1.1206636428833008
+        },
+        {
+            "reference": "a little vice a little vice every morning you greet me small and white clean and bright you look happy to me",
+            "prediction": " A little vice, A little vice Every morning you greet me Small and white, clean and bright You look happy to me",
+            "latency_seconds": 1.3698480129241943
+        },
+        {
+            "reference": "you are my sunshine my only sunshine you make me happy when skies are grey youll never know dear how much i love you please dont take my sunshine away the other night dear as i lay sleeping",
+            "prediction": " You are my sunshine, my only sunshine You make me happy when skies are grey You'll never know dear how much I love you Please don't take my sunshine away The other night dear as I lay sleeping",
+            "latency_seconds": 1.9386110305786133
+        }
+    ],
+    "lora": [
+        {
+            "reference": "there is a calm surrender to the rush of the day when the heat of the rolling world can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you and can you feel the love tonight it is where we are its enough for this wideeyed wanderer that we got this far and can you feel the love tonight how its laid to rest its enough to make kings and vagabonds believe the very best",
+            "prediction": "theres a calm surrender to the rush of the day when the heat of the rolling world can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you and can you feel the love tonight it is where we are its enough for this wideeyed wonderer that we got this far and can you feel the love tonight how its late to rest its enough to make kings and faggots believe the very best",
+            "latency_seconds": 5.574512958526611
+        },
+        {
+            "reference": "theres a calm surrender to the rush of day when the heat of the rolling wall can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you",
+            "prediction": "veres a calm surrender to the rush of day when the heat of the rolling wall can be turned away an enchanted moment and it sees me through its enough for this restless warrior just to be with you",
+            "latency_seconds": 3.9764821529388428
+        },
+        {
+            "reference": "im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone ive tried and i dont know why slow it down make it stop or else my heart is going to pop because its too much yeah its a lot to be something im not im a fool out of love because i just cant get enough im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone",
+            "prediction": "im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone ive tried and i dont know why slow it down make it stop or else my heart is going to pop cause its too much yeah its a lot to be something im not im a fool out of love cause i just cant get enough im just a little bit caught in the middle life is a maze and love is a riddle i dont know where to go cant do it alone",
+            "latency_seconds": 7.042286396026611
+        },
+        {
+            "reference": "saya suka hidup setiap hari tetapi kadangkadang saya rasa begitu saya harap untuk mencari sebuah kecil minuman dan saya hanya ingin tahu siapa boleh menyelamatkan kecilkecil yang kecil dan apa kita perlu menjadi di mana rumah di jalan yang berat saya mencari mata lagi di dalam kejadian saya saya tidak begitu jauh dari rumah apa yang saya dan dunia begitu jauh dari rumah",
+            "prediction": "im loving living every single day but sometimes i feel so i hope to find a little peace of mind and i just want to know and who can heal those tiny broken hearts and what are we to be where is home on a milky way of stars i dry my eyes again in my dreams i am not so far away from home what am i in a world so far away from home",
+            "latency_seconds": 5.3818018436431885
+        },
+        {
+            "reference": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark thanks you for your tiny spark he could not see you",
+            "prediction": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark thanks you for your tiny spark",
+            "latency_seconds": 5.790584087371826
+        },
+        {
+            "reference": "its late in the evening shes wondering what clothes to wear she puts on her makeup and brushes her long blonde hair and then she asks me do i look alright and i say yes you look wonderful tonight we go to a party and everyone turns to see this beautiful lady thats walking around with me and then she asks me do you feel alright and i say yes i feel wonderful tonight i feel wonderful because i see the love light in your eyes",
+            "prediction": "its late in the evening shes wondering what clothes to wear she puts on her makeup and brushes her long blonde hair and then she asks me do i look alright and i say yes you look wonderful tonight we go to a party and everyone turns to see this beautiful lady thats walking around with me and then she asks me do you feel alright and i say yes i feel wonderful tonight i feel wonderful because i see the love light in your eyes",
+            "latency_seconds": 5.829318523406982
+        },
+        {
+            "reference": "dushing through the snow in a one horse open sleigh or the fuse would go laughing all the way bells on pop tails ring making spirits bright would have fun it is to laugh and sing a sleighing song tonight oh jingle bells jingle bells jingle all the way oh would have fun it is to ride in a one horse open sleigh hey jingle bells jingle bells jingle all the way oh would have fun it is to ride in a one horse open sleigh",
+            "prediction": "dashing through the snow in a onehorse open sleigh or the views we go laughing all the way bows and bob tills ring making spirits bright would have fun it is to laugh and sing a sleighing song tonight oh jingle bells jingle bells jingle all the way oh what fun it is to ride in a onehorse open sleigh hey jingle bells jingle bells jingle all the way oh what fun it is to ride in a onehorse open sleigh hey jingle bells jingle bells jingle all the way oh what fun it is to ride in a onehorse open sleigh",
+            "latency_seconds": 7.522840976715088
+        },
+        {
+            "reference": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abcs skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky now that spring is in the air pretty girls are everywhere think of me and ill be there we had joy we had fun we had seasons",
+            "prediction": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abcs skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky now that spring is in the air pretty girls are everywhere think of me and ill be there we had joy we had fun we had seasons",
+            "latency_seconds": 5.488545656204224
+        },
+        {
+            "reference": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast im driving too far id like to change my point of view i feel so lonely im waiting for you but nothing ever happens and i wonder i wonder how i wonder why yesterday",
+            "prediction": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast im driving too far id like to change my point of view i feel so lonely im waiting for you but nothing ever happens and i wonder i wonder how i wonder why",
+            "latency_seconds": 5.867681503295898
+        },
+        {
+            "reference": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abc skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky",
+            "prediction": "goodbye to you my trusted friend weve known each other since we were nine or ten together weve climbed hills and trees learned of love and abc skinned our hearts and skinned our knees goodbye my friend its hard to die when all the birds are singing in the sky",
+            "latency_seconds": 4.062841892242432
+        },
+        {
+            "reference": "love in your eyes sitting silent by my side going on holding hands walking through the nights hold me up hold me tight lift me up to touch the sky teaching me to love with heart helping me open my mind i can fly im proud that i can fly to give the best of mine till the end of time believe me i can fly im proud that i can fly to give the best of mine the heavenly light",
+            "prediction": "love in your eyes sitting silent by my side going on holding hands walking through the nights hold me up hold me tight lift me up to touch the sky teaching me to love with heart helping me open my mind i can fly im proud that i can fly to give the best of mine till the end of time believe me i can fly im proud that i can fly to give the best of mine the heaven of the world",
+            "latency_seconds": 4.8397204875946045
+        },
+        {
+            "reference": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark",
+            "prediction": "twinkle twinkle little star how i wonder what you are up above the world so high like a diamond in the sky twinkle twinkle little star how i wonder what you are when the blazing sun is gone when he nothing shines upon then you show your little light twinkle twinkle all the night twinkle twinkle little star how i wonder what you are then the traveler in the dark thanks you for your tiny spark",
+            "latency_seconds": 5.604647397994995
+        },
+        {
+            "reference": "silent night holy night all is calm all is bright round yon virgin mother and child holy infant so tender and mild sleep in heavenly peace sleep in heavenly peace silent night holy night shepherds quake at the sight glory stream from heaven afar heavenly hosts sing hallelujah christ the savior is born christ the savior is born",
+            "prediction": "silent night holy night all is calm all is bright round yon virgin mother and child holy infants so tender and mild sleep in heavenly peace sleep in heavenly peace silent night holy night shepherds quake at the sight glory stream from heaven afar heavenly hosts sing hallelujah Christ the savior is born Christ the savior",
+            "latency_seconds": 3.930504083633423
+        },
+        {
+            "reference": "moon river wider than a mile im crossing you in style someday you dream maker you heartbreaker wherever youre going im going your way two drifters off to see the world theres such a lot of world to see were after the same rainbows and waiting around the bend my huckleberry friend moon river and me moon river wider than a mile",
+            "prediction": "moon river wider than a mile im crossing you in style someday you dream maker you heartbreaker wherever you are going im going your way two drifters off to see the world theres such a lot of world to see were after the same rainbows and waiting around the bend my huckleberry friend moon river and me moon river",
+            "latency_seconds": 4.20831298828125
+        },
+        {
+            "reference": "moon river wider than a mile im crossing you in style someday you dream maker you hot breaker wherever you are",
+            "prediction": "moon river wider than a mile im crossing you in style someday you dream maker you had breaker wherever you had",
+            "latency_seconds": 2.056033134460449
+        },
+        {
+            "reference": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast im driving too far id like to change my point of view",
+            "prediction": "im sitting here in the boring room its just another rainy sunday afternoon im wasting my time i got nothing to do im hanging around im waiting for you but nothing ever happens and i wonder im driving around in my car im driving too fast time driving too far id like to change my point of view",
+            "latency_seconds": 4.07480525970459
+        },
+        {
+            "reference": "a little vice a little vice every morning you greet me small and white clean and bright you look happy to me",
+            "prediction": "adelweiss adelweiss every morning you greet me small and white clean and bright you look happy to me",
+            "latency_seconds": 1.840095043182373
+        },
+        {
+            "reference": "i hear your voice on the line but it doesnt stop the pain",
+            "prediction": "oceans apart day after day and i slowly go insane i hear your voice on the line but it doesnt stop the pain if i see you next to never how can we say forever wherever you go whatever you do i will be right here waiting for you whatever it takes or how my heart breaks i will be right here waiting for you i took for granted all the times that i thought would last somehow i hear the laughter i taste the tears but i cant get near you now oh cant you see it baby",
+            "latency_seconds": 6.345525503158569
+        },
+        {
+            "reference": "a little vice a little vice every morning you greet me small and white clean and bright you look happy to me",
+            "prediction": "adelweiss adelweiss every morning you greet me small and white clean and bright you look happy to me",
+            "latency_seconds": 1.7127695083618164
+        },
+        {
+            "reference": "you are my sunshine my only sunshine you make me happy when skies are grey youll never know dear how much i love you please dont take my sunshine away the other night dear as i lay sleeping",
+            "prediction": "you are my sunshine my only sunshine you make me happy when skies are gray youll never know dear how much i love you please dont take my sunshine away the other night dear as i lay sleep",
+            "latency_seconds": 2.7447469234466553
+        }
+    ]
+}

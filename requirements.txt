@@ -1,0 +1,14 @@
+torch==2.3.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+torchvision==0.18.1
+torchaudio==2.3.1
+transformers==4.44.2
+datasets==2.20.0
+numpy==1.26.4
+peft
+uvicorn
+fastapi
+evaluate
+jiwer
+librosa
+soundfile
+tensorboard
