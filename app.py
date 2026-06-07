@@ -2,7 +2,7 @@ import gradio as gr
 import torch
 import librosa
 import time
-from transformers import WhisperProcessor, WhisperForConditionalGeneration
+from transformers import WhisperProcessor, WhisperForConditionalGeneration, pipeline
 from peft import PeftModel
 
 # LOCAL CONFIG
@@ -13,22 +13,30 @@ SAMPLING_RATE = 16000
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Initializing AutoLyrics Application on {device.upper()}...")
 
-# Load standard processor
+# Load standard processor and base model
 processor = WhisperProcessor.from_pretrained(MODEL_ID)
 base_model = WhisperForConditionalGeneration.from_pretrained(MODEL_ID)
 
 print(f"Attaching Fine-Tuned LoRA Weights from {OUTPUT_DIR}...")
 try:
     model = PeftModel.from_pretrained(base_model, OUTPUT_DIR)
-    model.to(device)
     print("AutoLyrics Engine Ready")
 except Exception as e:
     print(f"ERROR: Could not load LoRA adapter.\nError: {e}")
-    model = base_model.to(device)   # Fallback to base model
+    model = base_model 
+
+# Create a pipeline 
+asr_pipeline = pipeline(
+    "automatic-speech-recognition",
+    model=model,
+    tokenizer=processor.tokenizer,
+    feature_extractor=processor.feature_extractor,
+    device=0 if device == "cuda" else -1
+)
 
 def transcribe_audio(audio_filepath):
     if audio_filepath is None:
-        return "ERRORr: Please upload or record an audio file first.", "0.00 seconds"
+        return "ERROR: Please upload or record an audio file first.", "0.00 seconds"
 
     print("Processing incoming audio stream...")
     start_time = time.time()
@@ -37,27 +45,28 @@ def transcribe_audio(audio_filepath):
         # Load and force resample to 16kHz
         audio_array, _ = librosa.load(audio_filepath, sr=SAMPLING_RATE)
 
-        # Feature Extraction
-        input_features = processor(
-            audio_array, 
-            sampling_rate=SAMPLING_RATE, 
-            return_tensors="pt"
-        ).input_features.to(device)
+        # Run pipeline with chunking(chunks of 30sec) and generation arguments
+        prediction = asr_pipeline(
+            audio_array,
+            chunk_length_s=30,  
+            stride_length_s=5,  
+            generate_kwargs={    
+                "language": "en",
+                "task": "transcribe",
+                "repetition_penalty": 1.2,
+                "temperature": 0.2
+            }
+        )
 
-        # Generation
-        with torch.no_grad():
-            predicted_ids = model.generate(input_features, max_new_tokens=400)
-
-        # Decode output
-        transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0].strip().lower()
+        transcription = prediction["text"].strip().lower()
         
-        # Clean up punctuations
+        # Clean up punctuation
         clean_text = "".join(char for char in transcription if char.isalnum() or char.isspace())
 
         end_time = time.time()
         latency = round(end_time - start_time, 2)
 
-        print(f"Transcribed in {latency}s")
+        print(f"Transcribed full song in {latency}s")
         return clean_text, f"{latency} seconds"
 
     except Exception as e:
@@ -71,7 +80,7 @@ custom_css = """
 .footer {text-align: center; margin-top: 2rem; color: #A0AEC0; font-size: 0.9rem;}
 """
 
-with gr.Blocks(css=custom_css) as demo:
+with gr.Blocks(css=custom_css, theme=gr.themes.Soft(primary_hue="red")) as demo:
     
     # App Header
     gr.Markdown("<h1 class='header-text'> AutoLyrics </h1>")
@@ -108,7 +117,4 @@ with gr.Blocks(css=custom_css) as demo:
 # Starting server
 if __name__ == "__main__":
     print("Starting web server...")
-    demo.launch(
-        share=False, 
-        theme=gr.themes.Soft(primary_hue="indigo")
-    )
+    demo.launch(share=False)
