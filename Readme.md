@@ -22,27 +22,27 @@ A fine-tuned Automatic Speech Recognition (ASR) system designed to transcribe mu
 ## Project Structure
 ```text
 AutoLyrics/       
- |- requirements.txt            # Python dependencies
- |- packages.txt                # System-level requirements (ffmpeg)
- |- app.py                      # Main Gradio web application 
+ |- requirements.txt             # Python dependencies
+ |- packages.txt                 # System-level requirements (ffmpeg)
+ |- app.py                       # Main Gradio web application 
  |- data/
-    |- NUS_48e/                 # Raw dataset audio files (.wav)
-    |- transcripts.json         # Auto-generated transcript annotations
+    |- NUS_48e/                  # Raw dataset audio files (.wav)
+    |- transcripts.json          # Auto-generated transcript annotations
  |- processed_dataset/      
-    |- test/                    # Feature-extracted evaluation split
-    |- train/                   # Feature-extracted evaluation split
+    |- test/                     # Feature-extracted evaluation split
+    |- train/                    # Feature-extracted evaluation split
  |- models/
-    |- autolyrics_lora/         # Fine-tuned LoRA adapter weights
+    |- autolyrics_lora/           # Fine-tuned LoRA adapter weights
  |- src/
     |- preprocessing/       
-        |- auto_label.py        # Baseline Whisper transcription of raw audio
-        |- build_dataset.py     # Dataset creation, feature extraction, and tokenization
+        |- transcribe_audio.py   # Baseline Whisper transcription of raw audio
+        |- build_dataset.py      # Dataset creation, feature extraction, and tokenization
     |- training/            
-        |- train.py             # LoRA fine-tuning and quantized training setup
+        |- train.py              # LoRA fine-tuning and quantized training setup
     |- inference/           
-        |- predict.py           # Baseline vs LoRA inference and latency benchmarking
+        |- predict.py            # Baseline vs LoRA inference and latency benchmarking
     |- evaluation/          
-        |- metrics.py           # WER calculation and model comparison
+        |- metrics.py            # WER calculation and model comparison
 ```
 
 ## Quick Start
