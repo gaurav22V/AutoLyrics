@@ -1,3 +1,15 @@
+`---
+title: AutoLyrics AI
+emoji: 🎵
+colorFrom: indigo
+colorTo: slate
+sdk: gradio
+sdk_version: "5.0.0"
+python_version: "3.10"
+app_file: app.py
+pinned: true
+---`
+
 # AutoLyrics : Fine-Tuned Whisper for Lyrics Transcription
 
 A fine-tuned Automatic Speech Recognition (ASR) system designed to transcribe musical lyrics from raw, vocal-heavy audio tracks. This repository contains the complete deep learning pipeline, from dataset curation and parameter-efficient fine-tuning to an interactive web interface.
