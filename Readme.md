@@ -1,4 +1,4 @@
-`---
+---
 title: AutoLyrics AI
 emoji: 🎵
 colorFrom: indigo
@@ -7,7 +7,7 @@ sdk: gradio
 sdk_version: "5.7.1"
 app_file: app.py
 pinned: true
----`
+---
 
 # AutoLyrics : Fine-Tuned Whisper for Lyrics Transcription
 
